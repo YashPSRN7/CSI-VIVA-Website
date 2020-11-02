@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+
+.bg{
+    background-color: white;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+    z-index: -2;
+  }
+  
+  .navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black; 
+  }
+
+  
+  .nav-item {
+    padding: 0 8px;
+    color: black;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 300;
+  }
+
+  .nav-item :hover{
+    border-bottom: 1px solid #193682;
+    /* color: #ffffff; */
+    /* background-color: #193682; */
+  }
+.logo{
+    vertical-align: middle;
+    height: 100px;
+}
+.navbar-toggler{
+    color: #193682;
+    background-color: #193682;
+}
+.navbar-toggler-icon{
+    background-color: #193682;
+}
+
+
+
+
+/* events 19-20 */
+.container{
+    /* margin-top: 5%; */
+}
+.h2-events1920{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding-top: 5%;
+    color: white;
+
+}
+
+.card{
+    margin-top: 5%;
+    width: 20rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.card-img-top{
+    width: 20rem;
+    height: 15rem;
+}
+
+.events-19-20{
+    background-color: #193682;
+    padding-bottom: 5%;
+}
+
+.carousel-control-prev{
+    padding-top: 50%;
+}
+.carousel-control-next{
+    padding-top: 50%;
+}
+
+
+.carousel-control-prev{
+    height: 100px;
+}
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
